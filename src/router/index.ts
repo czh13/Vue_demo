@@ -11,8 +11,8 @@ import { createRouter, createWebHistory, type RouteRecordRaw } from 'vue-router'
 
 const routes: Array<RouteRecordRaw> = [
   {
-    path: '/demo',
-    name: 'Demo',
+    path: '/xhsDemo',
+    name: 'xhsDemo',
     component: () => import('@/views/xhs_waterfall/demo/index.vue')
   }
 ]
